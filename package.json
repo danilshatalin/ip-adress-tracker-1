@@ -14,5 +14,9 @@
   },
   "dependencies": {
     "leaflet": "^1.9.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.2",
+    "vercel": "^31.0.1"
   }
 }
