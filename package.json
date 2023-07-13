@@ -11,9 +11,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "parcel": "^2.9.2"
-  },
   "dependencies": {
     "leaflet": "^1.9.4"
   },

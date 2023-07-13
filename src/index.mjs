@@ -1,4 +1,5 @@
 import {addOffset, validateIp} from './helpers/helper-index.mjs';
+import icon from '../images/icon-location.svg';
 
 
 const ipInput = document.querySelector('.search-bar__input');
@@ -13,7 +14,7 @@ btn.addEventListener('click', getData);
 ipInput.addEventListener('keydown', handleKey);
 
 const markerIcon = L.icon({
-    iconUrl: '../images/icon-location.svg',
+    iconUrl: icon,
     iconSize: [30, 40],
 })
 
